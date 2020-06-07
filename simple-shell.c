@@ -1,9 +1,8 @@
-/**
- * Simple shell interface program.
- *
- * Operating System Concepts - Ninth Edition
- * Copyright John Wiley & Sons - 2013
- */
+/**********************************************************************************************************************************************************
+ * Simple UNIX Shell
+ * @author: NLPTrinh - HTVy - NTTTruc
+ * @StudentID: 1751044 - 1751027 - 1751112
+ **/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -340,6 +339,9 @@ char** history_computation(char **args, int *needWait) {
             }
             args[i] = NULL;
             *needWait = history_wait[(buffHead-1)%10];
+            printf("Recent command: ");
+            printf(history[0][0]);
+            printf("\n");
         } else { // if no recent command in history
             printf("No commands in history\n");
             return args;
