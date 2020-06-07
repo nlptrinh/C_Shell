@@ -1,0 +1,6 @@
+Makefile
+README.md
+a.txt
+main
+out.txt
+simple-shell.c
