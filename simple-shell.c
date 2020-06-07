@@ -4,7 +4,11 @@
  * @StudentID: 1751044 - 1751027 - 1751112
  **/
 
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 10a1baffd83690f8c24c039242568185c3934fb7
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
